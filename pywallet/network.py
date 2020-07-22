@@ -264,4 +264,4 @@ class ZCoreMainNet(object):
     SECRET_KEY = 0x50      # int(0xCC) = 80  # Used for WIF format
     EXT_PUBLIC_KEY = 0x04B24746  # Used to serialize public BIP32 addresses
     EXT_SECRET_KEY = 0x04B24308  # Used to serialize private BIP32 addresses
-    BIP32_PATH = "m/44'/428'/0'/0/0"    
+    BIP32_PATH = "m/44'/428'/0'/"    
