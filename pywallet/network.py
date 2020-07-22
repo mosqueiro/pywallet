@@ -254,3 +254,14 @@ class QtumTestNet(object):
     EXT_PUBLIC_KEY = 0x043587CF
     EXT_SECRET_KEY = 0x04358394
     BIP32_PATH = "m/44'/88'/0'/"
+
+class ZCoreMainNet(object):
+    """ZCore MainNet version bytes."""
+    NAME = "ZCore Main Net"
+    COIN = "ZCR"
+    SCRIPT_ADDRESS = 0x8E  # int(0x8E) = 142
+    PUBKEY_ADDRESS = 0x91  # int(0x4C) = 145  # Used to create payment addresses
+    SECRET_KEY = 0x50      # int(0xCC) = 80  # Used for WIF format
+    EXT_PUBLIC_KEY = 0x04B24746  # Used to serialize public BIP32 addresses
+    EXT_SECRET_KEY = 0x04B24308  # Used to serialize private BIP32 addresses
+    BIP32_PATH = "m/44'/428'/0'/0/0"    
